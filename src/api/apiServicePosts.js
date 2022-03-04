@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiService = () => {
+const apiServicePosts = () => {
 	//const { REACT_APP_API_URL } = process.env;
     //As it is a challenge api url is hardcoded. Can be added at .env file.
     const REACT_APP_API_URL="https://jsonplaceholder.typicode.com/"
@@ -13,4 +13,4 @@ const apiService = () => {
 	return axiosInstance;
 };
 
-export default apiService;
+export default apiServicePosts;

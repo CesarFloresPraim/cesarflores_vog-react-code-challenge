@@ -1,7 +1,7 @@
-import apiService from "../api/apiService";
+import apiServicePosts from "../api/apiServicePosts";
 
 class UserService {
-	getAllUsers= () => apiService().get("users");
+	getAllUsers= () => apiServicePosts().get("users");
 }
 
 export default new UserService();
