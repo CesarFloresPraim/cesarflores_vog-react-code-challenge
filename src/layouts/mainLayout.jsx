@@ -18,6 +18,7 @@ import Navigation from "../components/Navigation/Navigation";
 //My Views
 import Home from "../views/Home/Home.jsx";
 import Universities from "../views/Universities/Universities";
+import Postal from "../views/Postal/Postal";
 
 function MainLayout() {
     return (
@@ -32,7 +33,7 @@ function MainLayout() {
                             </Route>
                             <Route path="/universities" element={<Universities />}>
                             </Route>
-                            <Route path="/lookup">
+                            <Route path="/lookup" element={<Postal></Postal>}>
                             </Route>
                         </Routes>
                     </Col>
